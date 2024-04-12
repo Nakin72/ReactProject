@@ -2,21 +2,31 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-
+import * as React from 'react';
+import Skeleton from '@mui/material/Skeleton';
+import Stack from '@mui/material/Stack';
 function App() {
   const [count, setCount] = useState(0)
- 
+
   return (
     <>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
-        
-       <a href="https://react.dev" target="_blank">
+
+        <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
+      <Stack spacing={1}>
+      {/* For variant="text", adjust the height via font-size */}
+      <Skeleton variant="text" sx={{ fontSize: '1rem' }} />
+      {/* For other variants, adjust the size with `width` and `height` */}
+      <Skeleton variant="circular" width={40} height={40} />
+      <Skeleton variant="rectangular" width={210} height={60} />
+      <Skeleton variant="rounded" width={210} height={60} />
+    </Stack>
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
