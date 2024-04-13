@@ -19,16 +19,9 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <Stack spacing={1}>
-      {/* For variant="text", adjust the height via font-size */}
-      <Skeleton variant="text" sx={{ fontSize: '1rem' }} />
-      {/* For other variants, adjust the size with `width` and `height` */}
-      <Skeleton variant="circular" width={40} height={40} />
-      <Skeleton variant="rectangular" width={210} height={60} />
-      <Skeleton variant="rounded" width={210} height={60} />
-    </Stack>
+     
       <h1>Vite + React</h1>
-      <div className="card">
+      <div className="card" >
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
@@ -45,3 +38,4 @@ function App() {
 }
 
 export default App
+
