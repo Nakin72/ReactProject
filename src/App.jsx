@@ -1,16 +1,60 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import avatarImg from '/public/AvatarLogo.jpg'
+
 import './App.css'
 import * as React from 'react';
 import Skeleton from '@mui/material/Skeleton';
 import Stack from '@mui/material/Stack';
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
+      <div className="Profile">
+        <div className="ImgAndTextCard">
+          <img
+            className="Avatar"
+            src={avatarImg}
+          />
+
+          <p className="FullName">Наумов Никита</p>
+
+        </div>
+
+
+        <div className="SkillsBlock">
+          <p className="SkList">Список навыков</p>
+
+
+          <div className="Skill">
+            <p className="CPP">C++</p>
+            <p className="LevelBasic">Basic</p>
+          </div>
+
+          <div className="Skill">
+            <p className="CSharp">C#</p>
+            <p className="LevelBasic">Basic</p>
+          </div>
+
+          <div className="Skill">
+            <p className="Python">Python</p>
+            <p className="LevelBasic">Basic</p>
+          </div>
+
+          <div className="Skill">
+            <p className="Figma">Figma</p>
+            <p className="LevelBasic">Basic</p>
+          </div>
+        </div>
+      </div>
+
+    </>
+  )
+}
+
+export default App
+
+/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -32,10 +76,4 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
 
-      </p>
-    </>
-  )
-}
-
-export default App
-
+      </p> */
