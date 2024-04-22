@@ -1,0 +1,52 @@
+.skill {
+  display: inline-flex;
+  align-items: center;
+  width: auto;
+  height: 48px;
+  background-color: rgb(78, 78, 78);
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgb(0, 0, 0);
+}
+
+.skill__icon {
+  width: 30px;
+  height: 30px;
+
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  background-color: rgb(139, 139, 139);
+  background-clip: padding-box;
+  border-radius: 8px 0 0 8px;
+  box-shadow: 0 0 4px rgb(0, 0, 0);
+  position: relative;
+  //backgro
+
+  //background-color: rgb(0, 0, 0);
+
+
+  img {
+    width: 32px;
+    height: 32px;
+    clip-path: view-box;
+    mask-size: contain;
+    /* Scale the background image to fit within the container */
+    mask-repeat: no-repeat;
+    /* Prevent the background image from repeating */
+    mask-position: center;
+    /* Center the background image within the container */
+
+  }
+
+
+}
+
+.Tag {
+  padding-right: 8px;
+  padding-left: 8px;
+
+  h3 {
+    font-size: 32px;
+  }
+}
