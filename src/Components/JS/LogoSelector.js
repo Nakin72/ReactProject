@@ -11,7 +11,14 @@ import NodeJSLogo from "@/L_logos/pngjpg/NodeJSLogo.png"
 import PostgreSQLLogo from "@/L_logos/pngjpg/PostgreSQLLogo.png"
 import RaspberryPiLogo from "@/L_logos/pngjpg/RaspberryPiLogo.png"
 import ReactLogo from "@/L_logos/pngjpg/ReactLogo.png"
+import CSSLogo from "@/L_logos/pngjpg/CSSLogo.png"
+import HTMLLogo from "@/L_logos/pngjpg/HTMLLogo.png"
+import JavaScriptLogo from "@/L_logos/pngjpg/JavaScriptLogo.png"
+import TypeScriptLogo from "@/L_logos/pngjpg/TypeScriptLogo.png"
 
+import TelegramLogo from "@/L_logos/pngjpg/TelegramLogo.png"
+import VKLogo from "@/L_logos/pngjpg/VKLogo.png"
+import DiscordLogo from "@/L_logos/pngjpg/DiscordLogo.png"
 const Logos = [
     {
         id: 1,
@@ -72,6 +79,41 @@ const Logos = [
         id: 12,
         name: "RaspberryPi",
         img: RaspberryPiLogo
+    },
+    {
+        id: 13,
+        name: "CSS",
+        img: CSSLogo
+    },
+    {
+        id: 14,
+        name: "HTML",
+        img: HTMLLogo
+    },
+    {
+        id: 15,
+        name: "JavaScript",
+        img: JavaScriptLogo
+    },
+    {
+        id: 16,
+        name: "TypeScript",
+        img: TypeScriptLogo
+    },
+    {
+        id: 17,
+        name: "Nakin_72",
+        img: TelegramLogo
+    },
+    {
+        id: 18,
+        name: "nakin72",
+        img: VKLogo
+    },
+    {
+        id: 19,
+        name: "nakin_72",
+        img: DiscordLogo
     }
 ];
 
